@@ -99,7 +99,7 @@ const Register = () => {
             setupUser({
               currentUser: {
                 email: "testuser@gmail.com",
-                password: "kajalj990",
+                password: "testuser",
               },
               endPoint: "login",
               alertText: "Login Successfully !! Redirecting...",
