@@ -39,7 +39,6 @@ const login = async (req, res) => {
   if (!user) {
     throw new UnAuthenticatedError("Invalid Email");
   }
-  console.log(user);
   const isPasswordValid = await user.comparedPassword(password);
 
   if (!isPasswordValid) {
