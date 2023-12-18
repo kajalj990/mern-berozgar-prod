@@ -67,7 +67,6 @@ const updateUser = async (req, res) => {
   // const token = user.createJWT();
 
   res.status(StatusCodes.OK).json({ user, location: user.location });
-  console.log(req.user);
 };
 
 const getCurrentUser = async (req, res) => {
